@@ -1,3 +1,8 @@
 .claude
 node_modules/
 *.lock
+
+# variáveis de ambiente (nunca versionar)
+.env
+.env.*
+!.env.example
